@@ -1,4 +1,4 @@
-# Amazon Bestselling Books Rating Analysis
+# Web Scraping Amazon Bestselling Books for Rating Analysis
 
 This project scrapes the Amazon Bestselling Books page, extracts details about books, and visualizes the top-rated books with a focus on their ratings and the number of customer reviews.
 
