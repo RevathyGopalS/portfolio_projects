@@ -1,15 +1,25 @@
-# Web Scraping and Automation Project
+# Amazon Bestselling Books Rating Analysis
 
-This project uses Python for web scraping, automation, and data processing, with SQL for database management, and data visualization using Tableau and Power BI.
+This project scrapes the Amazon Bestselling Books page, extracts details about books, and visualizes the top-rated books with a focus on their ratings and the number of customer reviews.
 
-## Technologies Used
+## Features
 
-- **Python**: Data processing and automation
-- **BeautifulSoup**: HTML parsing
-- **Selenium**: Web automation
-- **Requests**: HTTP requests
-- **Pandas**: Data analysis
-- **SQL**: Database management
-- **Tableau**: Data visualization
-- **Power BI**: Interactive reporting
+- **Web Scraping**: Extracts book titles, authors, ratings, prices, and the number of customer reviews from Amazon's Bestselling Books page.
+- **Data Cleaning**: Processes and structures the scraped data, handles missing values, and converts textual ratings into numerical values.
+- **Data Filtering**: Filters out books with fewer than 1000 customer ratings and sorts books by their ratings.
+- **Visualization**: Creates bar and scatter plots to visualize book ratings and the number of customer reviews.
+
+## Project Setup
+
+### Prerequisites
+
+Ensure the following Python libraries are installed:
+- `requests`: For sending HTTP requests.
+- `BeautifulSoup`: For parsing HTML pages.
+- `pandas`: For data manipulation.
+- `matplotlib`: For creating visualizations.
+
+Install the libraries via pip:
+```bash
+pip install requests beautifulsoup4 pandas matplotlib
 
